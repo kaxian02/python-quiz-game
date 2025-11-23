@@ -1,0 +1,48 @@
+# Simple Quiz Game
+
+print("Welcome to the Quiz Game!")
+
+score = 0
+
+# Question 1
+print("\n1. Which language is used for AI and Machine Learning?")
+print("a) Python\nb) Java\nc) C++")
+answer = input("Your answer: ")
+
+if answer.lower() == "a":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+# Question 2
+print("\n2. What is the capital of India?")
+print("a) Mumbai\nb) Delhi\nc) Pune")
+answer = input("Your answer: ")
+
+if answer.lower() == "b":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+# Question 3
+print("\n3. What does CPU stand for?")
+print("a) Central Process Unit\nb) Central Processing Unit\nc) Computer Personal Unit")
+answer = input("Your answer: ")
+
+if answer.lower() == "b":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+# Final Score
+print("\nYour final score is:", score, "/ 3")
+
+if score == 3:
+    print("Excellent Job!")
+elif score == 2:
+    print("Good Work!")
+else:
+    print("Kee
